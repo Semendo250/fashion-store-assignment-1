@@ -1,0 +1,197 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff4081, #ff9800);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px 0 5px;
+      font-size: 1.2rem;
+      color: #444;
+    }
+
+    .card p {
+      margin-bottom: 15px;
+      color: #666;
+    }
+
+    .offers {
+      padding: 40px;
+      background: #fff3e0;
+    }
+
+    .offers h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #e65100;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 auto;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    table th, table td {
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    table th {
+      background: #ff9800;
+      color: white;
+    }
+
+    .benefits {
+      padding: 40px;
+      background: #fce4ec;
+      text-align: center;
+    }
+
+    .benefits h2 {
+      color: #c2185b;
+      margin-bottom: 15px;
+    }
+
+    .benefits p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>👗 Fashion Store</h1>
+    <p>Trendy. Stylish. Affordable.</p>
+  </header>
+
+  <!-- Fashion Products Section -->
+  <section class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x250?text=Stylish+Dress" alt="Dress">
+      <h3>Elegant Dress</h3>
+      <p>$49.99</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x250?text=Casual+Shoes" alt="Shoes">
+      <h3>Casual Shoes</h3>
+      <p>$39.99</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x250?text=Designer+Bag" alt="Bag">
+      <h3>Designer Bag</h3>
+      <p>$59.99</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x250?text=Stylish+Jacket" alt="Jacket">
+      <h3>Stylish Jacket</h3>
+      <p>$69.99</p>
+    </div>
+  </section>
+
+  <!-- Upcoming Sale Offers -->
+  <section class="offers">
+    <h2>🔥 Upcoming Sale Offers</h2>
+    <table>
+      <tr>
+        <th>Offer</th>
+        <th>Start Date</th>
+        <th>Discount</th>
+      </tr>
+      <tr>
+        <td>Winter Collection</td>
+        <td>10th October</td>
+        <td>Up to 40% Off</td>
+      </tr>
+      <tr>
+        <td>Festive Sale</td>
+        <td>20th November</td>
+        <td>Flat 50% Off</td>
+      </tr>
+      <tr>
+        <td>New Year Bonanza</td>
+        <td>1st January</td>
+        <td>Buy 1 Get 1 Free</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Store Benefits -->
+  <section class="benefits">
+    <h2>Why Shop at Fashion Store?</h2>
+    <p>
+      At Fashion Store, we bring you the latest fashion trends at unbeatable prices. 
+      Enjoy premium quality products, hassle-free returns, and exclusive discounts. 
+      Our fast delivery and 24/7 customer support make your shopping experience smooth and enjoyable.  
+      Fashion Store is your one-stop destination for all things stylish! 🌟
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Fashion Store. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
